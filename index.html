@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Convertitore di Basi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Convertitore di Numeri tra Basi</h1>
+
+    <label for="numero">Numero da convertire:</label>
+    <input type="text" id="numero" placeholder="Inserisci il numero">
+
+    <label for="baseDa">Base di partenza:</label>
+    <input type="number" id="baseDa" value="10" min="2" max="36">
+
+    <label for="baseA">Base di destinazione:</label>
+    <input type="number" id="baseA" value="2" min="2" max="36">
+
+    <button onclick="converti()">Converti</button>
+
+    <h2>Risultato:</h2>
+    <p id="risultato"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
